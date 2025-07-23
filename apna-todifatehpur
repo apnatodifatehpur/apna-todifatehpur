@@ -1,0 +1,61 @@
+<!DOCTYPE html><html lang="hi"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>अपना टोडीफतेहपुर | बुंदेलखंड की विरासत का दर्पण</title>
+  <link rel="stylesheet" href="style.css">
+</head><body>
+  <header>
+    <h1>अपना टोडीफतेहपुर</h1>
+    <p>बुंदेलखंड की विरासत का दर्पण</p>
+    <nav>
+      <ul>
+        <li><a href="#home">होम</a></li>
+        <li><a href="#history">इतिहास</a></li>
+        <li><a href="#religious">धार्मिक स्थल</a></li>
+        <li><a href="#nagar-panchayat">नगर पंचायत</a></li>
+        <li><a href="#gallery">पुरानी तस्वीरें</a></li>
+        <li><a href="#contact">संपर्क</a></li>
+      </ul>
+    </nav>
+  </header>  <main>
+    <section id="home">
+      <h2>स्वागत है</h2>
+      <p>टोडीफतेहपुर, बुंदेलखंड के झांसी जिले में स्थित एक ऐतिहासिक नगर है। वर्तमान में इसकी अनुमानित जनसंख्या लगभग 20,000 है (2011 में 11,855 थी)। नगर के मध्य से पथराई नदी बहती है, जो इसे सुंदर प्राकृतिक स्वरूप प्रदान करती है।</p>
+    </section><section id="history">
+  <h2>इतिहास</h2>
+  <p>टोडीफतेहपुर का इतिहास आठ भैया जमींदारी (जागीर) से जुड़ा है। यहां एक प्राचीन किला भी है जो इस क्षेत्र की समृद्ध सांस्कृतिक विरासत को दर्शाता है।</p>
+</section>
+
+<section id="religious">
+  <h2>धार्मिक स्थल</h2>
+  <ul>
+    <li>बेर का मंदिर और बुड़ी माता मंदिर — नजरगंज मोहल्ला</li>
+    <li>करैया माता (बड़ी माता) मंदिर — बड़ा गंज मोहल्ला</li>
+    <li>इतवा दरवाजा मंदिर और बड़ी माता मंदिर — फतेहपुर मोहल्ला</li>
+    <li>राधा मोहन लाल जी मंदिर (सेवारे का मंदिर) — बड़ा गंज मोहल्ला</li>
+    <li>बांके बिहारी मंदिर — तालापुरा</li>
+    <li>प्राचीन जैन मंदिर — स्थापत्य और विरासत का अद्भुत उदाहरण</li>
+  </ul>
+</section>
+
+<section id="nagar-panchayat">
+  <h2>नगर पंचायत की जानकारी</h2>
+  <p>टोडीफतेहपुर नगर पंचायत की स्थापना वर्ष 2001 में हुई थी। यह मऊरानीपुर तहसील के अंतर्गत आती है और झांसी जिला प्रशासन के अधीन है। नगर में साफ-सफाई, पेयजल, नालियां, रोड, स्ट्रीट लाइट, वार्डों की संख्या, विकास योजनाएं आदि की देखरेख नगरपालिका द्वारा की जाती है।</p>
+</section>
+
+<section id="gallery">
+  <h2>पुरानी तस्वीरें</h2>
+  <p>जल्द ही यहां पर टोडीफतेहपुर की ऐतिहासिक तस्वीरें अपलोड की जाएंगी।</p>
+</section>
+
+<section id="contact">
+  <h2>संपर्क करें</h2>
+  <p>Instagram: <a href="https://www.instagram.com/apna_todifatehpur" target="_blank">@apna_todifatehpur</a><br>
+     YouTube: <a href="https://m.youtube.com/@bundelkhandkevashi96" target="_blank">@bundelkhandkevashi96</a><br>
+     Facebook: <a href="https://www.facebook.com/share/1Dn35pNaVf/" target="_blank">Facebook Page</a><br>
+     Email: apnatodifatehpur@gmail.com</p>
+</section>
+
+  </main>  <footer>
+    <p>&copy; 2025 अपना टोडीफतेहपुर. सभी अधिकार सुरक्षित।</p>
+  </footer>  <script src="script.js"></script></body></html>
