@@ -1,1 +1,1 @@
-console.log('Website loaded');
+console.log('अपना टोडीफतेहपुर वेबसाइट पर आपका स्वागत है');
