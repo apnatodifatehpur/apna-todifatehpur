@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>अपना टोडीफतेहपुर</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f6f8;
+      color: #222;
+    }
+    header {
+      background: linear-gradient(to right, #4a0000, #a30000);
+      padding: 20px 40px;
+      color: #fff;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+    .header-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      text-align: left;
+    }
+    .logo {
+      height: 60px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      font-family: 'Georgia', serif;
+      letter-spacing: 1px;
+    }
+    header p {
+      margin: 5px 0 0;
+      font-size: 1.1rem;
+      color: #ffddcc;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    nav {
+      background-color: #fefefe;
+      border-bottom: 2px solid #8B0000;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+      font-weight: bold;
+    }
+    nav a {
+      color: #8B0000;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .banner-img {
+      display: block;
+      width: 100%;
+      max-height: 450px;
+      object-fit: cover;
+      border-bottom: 4px solid #8B0000;
+    }
+    .slider {
+      position: relative;
+      max-width: 900px;
+      margin: 40px auto;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    }
+    .slider img {
+      width: 100%;
+      height: 450px;
+      object-fit: cover;
+    }
+    .slider button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(0,0,0,0.5);
+      border: none;
+      color: white;
+      font-size: 2rem;
+      padding: 10px;
+      cursor: pointer;
+    }
+    .slider button:nth-child(5) {
+      left: 10px;
+    }
+    .slider button:nth-child(6) {
+      right: 10px;
+    }
+    .section {
+      max-width: 960px;
+      margin: auto;
+      background: white;
+      padding: 40px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      border-radius: 12px;
+      box-shadow: 0 0 30px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #b30000;
+      margin-bottom: 16px;
+      border-bottom: 2px solid #b30000;
+      padding-bottom: 8px;
+    }
+    p {
+      line-height: 1.8;
+      font-size: 1.1rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    table, th, td {
+      border: 1px solid #aaa;
+    }
+    th, td {
+      padding: 12px;
+      text-align: center;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #8B0000;
+      color: white;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+        <h1 style="text-align: center;">अपना टोडीफतेहपुर</h1>
+        <p style="text-align: center;">झाँसी • बुंदेलखंड</p>
+      </div>
+    </div>
+  </header>
+
+<nav style="background-color: white; text-align: center; padding: 10px 0; border-bottom: 2px solid #b80000;">
+  <a href="index.html" style="margin: 0 15px; color: #b80000; text-decoration: none; font-weight: bold;">मुख्य पृष्ठ</a>
+  <a href="Home.html" style="margin: 0 15px; color: #b80000; text-decoration: none; font-weight: bold;">इतिहास</a>
+  <a href="bhugol.html" style="margin: 0 15px; color: #b80000; text-decoration: none; font-weight: bold;">भौगोलिक स्थिति</a>
+  <a href="mandir.html" style="margin: 0 15px; color: #b80000; text-decoration: none; font-weight: bold;">किले व मंदिर</a>
+  <a href="Gallery.html" style="margin: 0 15px; color: #b80000; text-decoration: none; font-weight: bold;">गैलरी</a>
+  <a href="contact.html" style="margin: 0 15px; color: #b80000; text-decoration: none; font-weight: bold;">संपर्क</a>
+</nav>
+
+  <div class="section gallery-section">
+  <h2>🖼️ गैलरी</h2>
+  <p>यहाँ आप टोडीफतेहपुर की झलकियाँ, कार्यक्रम, प्राकृतिक सुंदरता और सांस्कृतिक विरासत की तस्वीरें और वीडियो देख सकते हैं।</p>
+
+  <div class="gallery-grid">
+    <!-- 📸 Placeholder Photos -->
+    <img src="images/nptodilogo.jpg" alt="Demo Photo 1">
+    <img src="images/nptodilogo1.jpg" alt="Demo Photo 2">
+    <img src="images/nptodilogo3.jpg" alt="Demo Photo 3">
+</div>
+
+   <!-- ▶️ Video Thumbnails with Popup -->
+    <div class="video-thumb" onclick="openVideoPopup('youtube')">
+      <img src="https://img.youtube.com/vi/HS6Y73hF2DY/0.jpg" alt="YouTube Thumbnail">
+      <span class="play-btn">▶</span>
+    </div>
+
+    <div class="video-thumb" onclick="openVideoPopup('instagram')">
+      <img src="https://via.placeholder.com/400x250?text=Instagram+Reel" alt="Instagram Thumbnail">
+      <span class="play-btn">▶</span>
+    </div>
+
+    <div class="video-thumb" onclick="openVideoPopup('facebook')">
+      <img src="https://via.placeholder.com/400x250?text=Facebook+Reel" alt="Facebook Thumbnail">
+      <span class="play-btn">▶</span>
+    </div>
+  </div>
+</div>
+
+<!-- Video Popup Modal -->
+<div class="video-popup" id="videoPopup">
+  <div class="video-popup-content">
+    <span class="close-btn" onclick="closeVideoPopup()">×</span>
+    <div id="videoContainer"></div>
+    <p class="thank-you-text">🎉 धन्यवाद! वीडियो देखने के लिए आभार।</p>
+  </div>
+</div>
+
+<script>
+  function openVideoPopup(type) {
+    const container = document.getElementById('videoContainer');
+    let iframe = '';
+    if (type === 'youtube') {
+      iframe = '<iframe src="https://www.youtube.com/embed/HS6Y73hF2DY" allowfullscreen></iframe>';
+    } else if (type === 'instagram') {
+      iframe = '<iframe src="https://www.instagram.com/reel/DCJA7eNhxzN/embed" allowfullscreen></iframe>';
+    } else if (type === 'facebook') {
+      iframe = '<iframe src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/reel/23960919276909346" allowfullscreen></iframe>';
+    }
+    container.innerHTML = iframe;
+    document.getElementById('videoPopup').style.display = 'flex';
+  }
+  function closeVideoPopup() {
+    document.getElementById('videoPopup').style.display = 'none';
+    document.getElementById('videoContainer').innerHTML = '';
+  }
+</script>
+
+<style>
+  .gallery-section {
+    text-align: center;
+  }
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+  }
+  .gallery-grid img,
+  .video-thumb img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  .video-thumb {
+    position: relative;
+    cursor: pointer;
+  }
+  .play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,0.6);
+    color: white;
+    font-size: 2rem;
+    padding: 10px 15px;
+    border-radius: 50%;
+  }
+  .video-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    padding: 20px;
+  }
+  .video-popup-content {
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+  }
+  .video-popup-content iframe {
+    width: 100%;
+    aspect-ratio: 9 / 16;
+    border-radius: 8px;
+    border: none;
+  }
+  .close-btn {
+    position: absolute;
+    top: -30px;
+    right: 0;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+  }
+  .thank-you-text {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1rem;
+  }
+  .footer-social {
+    margin-top: 20px;
+  }
+  .footer-social a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+  }
+  .footer-social a:hover {
+    color: #ffcccb;
+  }
+</style>
+
+<footer>
+  <div class="footer-social">
+    <a href="https://instagram.com/apna_todifatehpur" target="_blank">📸 Instagram</a>
+    <a href="https://www.facebook.com/share/17BHtvAgAr" target="_blank">📘 Facebook</a>
+    <a href="https://www.youtube.com/@BundelkhandKeVashi96" target="_blank">▶ YouTube</a>
+    <a href="mailto:apnatodifatehpur@gmail.com">✉ Email</a>
+  </div>
+</footer>
+
+
+<footer style="text-align: center;">
+    © 2025 Apna Todi Fatehpur | Designed & Maintained by Apna Todi Fatehpur.
+  </footer>
+</body>
+</html>
